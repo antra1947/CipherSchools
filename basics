@@ -1,0 +1,41 @@
+# node -v
+# npm -v
+
+
+# git --version
+
+# cipherstudio/
+# ├── backend/
+# └── frontend/
+
+
+
+# Step 1: Initialize
+# Open terminal in the backend folder:
+
+# cd cipherstudio/backend
+# npm init -y
+# npm install express mongoose cors dotenv
+# npm install nodemon --save-dev
+
+
+# backend/
+# ├── server.js
+# ├── .env
+# └── models/
+#     ├── userModel.js
+#     └── projectModel.js
+# └── routes/
+#     ├── userRoutes.js
+#     └── projectRoutes.js
+
+#     C:\Users\antra\OneDrive\Desktop\CipherSchools\cipherstudio\backend>npm start
+
+
+
+
+
+# frontend
+# cd ../frontend
+# npx create-react-app .
+# npm install @codesandbox/sandpack-react axios
