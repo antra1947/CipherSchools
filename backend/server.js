@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import userRoutes from "./cipherstudio/backend/routes/userRoutes.js";
-import projectRoutes from "./cipherstudio/backend/routes/projectRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
+import projectRoutes from "./routes/projectRoutes.js";
 
 dotenv.config();
 const app = express();
