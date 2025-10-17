@@ -1,7 +1,7 @@
 
 import express from "express";
 const router = express.Router();
-import User from "../models/userModel.js";
+import User from "../cipherstudio/backend/models/userModel.js";
 
 
 router.post("/register", async (req, res) => {

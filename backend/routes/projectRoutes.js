@@ -1,6 +1,6 @@
 import express from "express";
 const router = express.Router();
-import Project from "../models/projectModel.js";
+import Project from "../cipherstudio/backend/models/projectModel.js";
 
 
 router.post("/", async (req, res) => {
